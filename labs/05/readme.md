@@ -1,26 +1,28 @@
 # Syed Huzaifa Ali
 ## 23K-0004
 
-Question 1:
-![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/ed5d0635-ba9c-4efb-b36c-edb1906f5954)
+# FLOWCHARTS 
+# QUESTION 1:
+![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/92581032-2cd5-49d2-8c9b-a406a9ee47af)
 
-Question 2:
-![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/d1605f6e-36af-43da-adfa-b8f22a48c9a4)
+# QUESTION 2:
+![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/743c0c70-00d8-486c-9ad3-08fca38615c8)
 
-Question 3:
-![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/961356d1-b847-4d2a-93c6-7e80c8a95bd9)
+# QUESTION 3:
+![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/7d8596e6-2398-40e8-8a98-34a1956f2b3d)
 
-Question 4:
-![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/1bcf69b9-94b7-4b83-8ca8-a44f18edf7aa)
+# QUESTION 4:
+![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/76d47b7c-76e8-4b64-8f18-ceb0a60452c5)
 
-Question 5:
-![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/973ca495-cadf-4fdd-9e55-66976a68b7f0)
+# QUESTION 5:
+![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/18d1f242-8af3-4fe2-bd8e-6e512f667135)
 
-Question 7:
-![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/151e90d0-6897-4e39-903c-f9a2738d52f0)
+# QUESTION 7:
+![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/5065288c-6d05-4c49-bf8e-9ab13b7109a0)
 
-Question 8:
-![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/fc0f6821-1f15-46f3-9ac2-7196a2199e17)
+# QUESTION 8:
+![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/6adbc5e6-b11c-46cd-874e-b66f09400347)
 
-Question 9:
-![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/6d315515-00d5-4d89-941b-aef3bf92d0aa)
+# QUESTION 9:
+![image](https://github.com/syedhuzaifa2005/PfFall23/assets/142867893/a466e9cc-369d-42bc-a9f6-ea08f7ebf655)
+
