@@ -1,6 +1,6 @@
 /*
 Programmer: Syed Huzaifa Ali
-Date: !0 October 2023
+Date: 10 October 2023
 Description: Multiplication of 2x2 Matrix
 */
 
@@ -17,8 +17,6 @@ for (int i = 0; i < 2; i++) {
         }
     }
 
- 
-  //input second matrix
     printf("enter elements of the second matrix:\n ");
 for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
@@ -26,7 +24,6 @@ for (int i = 0; i < 2; i++) {
         }
     }
 
-  //multiplying matrix
      for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
             ans[i][j] = 0;
@@ -36,7 +33,6 @@ for (int i = 0; i < 2; i++) {
         }
     }
 
-  //displaying answer
     printf("Resultant matrix after multiplication:\n");
     for ( int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
