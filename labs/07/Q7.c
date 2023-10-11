@@ -8,12 +8,12 @@ Description: Multiplication of 2x2 Matrix
 
 main() {
   //initializing all matrics
-int arr1[2][2], arr2[2][2], ans[2][2];
+int mat1[2][2], mat2[2][2], ans[2][2];
 //input first matrix
 printf("enter elements of the first matrix:\n ");
 for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
-            scanf("%d", &arr1[i][j]);
+            scanf("%d", &mat1[i][j]);
         }
     }
 
@@ -22,7 +22,7 @@ for (int i = 0; i < 2; i++) {
     printf("enter elements of the second matrix:\n ");
 for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
-            scanf("%d", &arr2[i][j]);
+            scanf("%d", mat2[i][j]);
         }
     }
 
@@ -31,7 +31,7 @@ for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 2; j++) {
             ans[i][j] = 0;
             for (int k = 0; k < 2; k++) {
-                ans[i][j] += arr1[i][k] * arr2[k][j];
+                ans[i][j] += mat1[i][k] * mat2[k][j];
             }
         }
     }
