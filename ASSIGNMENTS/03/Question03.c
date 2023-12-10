@@ -1,3 +1,9 @@
+/*
+Programmer: Syed Huzaifa Ali
+Description: Merging details from personal and department text files into combine text file
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
