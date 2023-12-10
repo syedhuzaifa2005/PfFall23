@@ -16,6 +16,33 @@ struct Worker {
     char department[20];
 };
 
+void displayMaxSalaryWorkers(struct Worker workers[], int size);
+void fetchTotalSalariesByDepartment(struct Worker workers[], int size);
+
+
+int main() {
+    struct Worker workers[] = {
+        {1, "Monika", "Arora", 100000, "2014-02-20 09:00:00", "HR"},
+        {2, "Niharika", "Verma", 80000, "2014-06-11 09:00:00", "Admin"},
+        {3, "Vishal", "Singhal", 300000, "2014-02-20 09:00:00", "HR"},
+        {4, "Amitabh", "Singh", 500000, "2014-02-20 09:00:00", "Admin"},
+        {5, "Vivek", "Bhati", 500000, "2014-06-11 09:00:00", "Admin"},
+        {6, "Vipul", "Diwan", 200000, "2014-06-11 09:00:00", "Account"},
+        {7, "Satish", "Kumar", 75000, "2014-01-20 09:00:00", "Account"},
+        {8, "Geetika", "Chauhan", 90000, "2014-04-11 09:00:00", "Admin"},
+    };
+
+    int size = sizeof(workers) / sizeof(workers[0]);
+
+    displayMaxSalaryWorkers(workers, size);
+
+    fetchTotalSalariesByDepartment(workers, size);
+
+    return 0;
+}
+
+
+
 void displayMaxSalaryWorkers(struct Worker workers[], int size) {
     char departments[10][20];
     int maxSalaries[10] = {0};
@@ -56,6 +83,8 @@ void displayMaxSalaryWorkers(struct Worker workers[], int size) {
     }
 }
 
+
+
 void fetchTotalSalariesByDepartment(struct Worker workers[], int size) {
     char departments[10][20];
     int totalSalaries[10] = {0};
@@ -83,26 +112,4 @@ void fetchTotalSalariesByDepartment(struct Worker workers[], int size) {
             printf("%s - %d\n", departments[i], totalSalaries[i]);
         }
     }
-}
-
-int main() {
-    // Worker data initialization
-    struct Worker workers[] = {
-        {1, "Monika", "Arora", 100000, "2014-02-20 09:00:00", "HR"},
-        {2, "Niharika", "Verma", 80000, "2014-06-11 09:00:00", "Admin"},
-        {3, "Vishal", "Singhal", 300000, "2014-02-20 09:00:00", "HR"},
-        {4, "Amitabh", "Singh", 500000, "2014-02-20 09:00:00", "Admin"},
-        {5, "Vivek", "Bhati", 500000, "2014-06-11 09:00:00", "Admin"},
-        {6, "Vipul", "Diwan", 200000, "2014-06-11 09:00:00", "Account"},
-        {7, "Satish", "Kumar", 75000, "2014-01-20 09:00:00", "Account"},
-        {8, "Geetika", "Chauhan", 90000, "2014-04-11 09:00:00", "Admin"},
-    };
-
-    int size = sizeof(workers) / sizeof(workers[0]);
-
-    displayMaxSalaryWorkers(workers, size);
-
-    fetchTotalSalariesByDepartment(workers, size);
-
-    return 0;
 }
