@@ -1,24 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void mergeAndWriteToFile(int id);
+void Merge_And_Write_To_File(int id);
 
 int main() {
     int id;
 
     printf("Syed Huzaifa Ali\n23k-0004\n\n");
 
-    // Get the record ID as input
     printf("Enter record ID: ");
     scanf("%d", &id);
 
-    // Call the function to merge and write to Combine.txt
-    mergeAndWriteToFile(id);
+    Merge_And_Write_To_File(id);
 
     return 0;
 }
 
-void mergeAndWriteToFile(int id) {
+void Merge_And_Write_To_File(int id) {
     FILE *personalFile = fopen("Personal.txt", "r");
     if (personalFile == NULL) {
         printf("Error! Could not open Personal.txt");
